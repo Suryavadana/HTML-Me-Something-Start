@@ -29,7 +29,7 @@ body {
 
 .container .left{
     position: relative;
-    background-color: darkslategray;
+    background-color: #BDE5E1;
     padding: 40px;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .title{
-    color: white;
+    color: darkslategray;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.4px;
@@ -80,16 +80,16 @@ body {
     display: inline-block;
     width: 30px;
     font-size: 20px;
-    color: lightseagreen;
+    color: #F88767;
 }
 
 .Info ul li span{
-    color: white;
+    color: darkcyan;
 }
 
 .Hobbies{
     position: relative;
-    color: white;
+    color: darkslategray;
     letter-spacing: 0.4px;
     margin-bottom: 30px;
     margin: 15px 0;
@@ -102,12 +102,12 @@ body {
     grid-template: 1fr 1fr/1fr 1fr;
     font-size: 0.5em;
     grid-row-gap: 15px;
-    color: darkcyan;
+    color: #F88767;
 }
 
 
 .Lang {
-    color: white;
+    color: darkslategray;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.4px;
@@ -129,12 +129,12 @@ body {
 }
 
 .active{
-    background-color: lightseagreen;
+    background-color: #F88767;
 
 }
 .container .right{
     position: relative;
-    background-color: lightcyan;
+    background-color: whitesmoke;
     padding: 40px;
 }
 
@@ -199,7 +199,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    background: darkcyan;
+    background: #F88767;
 }
 
 .Education{
