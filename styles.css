@@ -63,6 +63,7 @@ body {
 .Info ul{
     position: relative;
     margin-left: 15%;
+    list-style: none;
 }
 
 
