@@ -32,8 +32,7 @@ body {
     background-color: #BDE5E1;
     padding: 40px;
 }
-
-.profileText .profileImg{
+.profileImg{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -44,13 +43,8 @@ body {
     border: 4px solid black;
     overflow: hidden;
     object-fit: cover;
+    margin-left: 20%;
     
-}
-
-.profileText h2 span{
-   font-size: 0.7em;
-   font-weight: 300;
-   margin-top: auto;
 }
 
 .Info{
@@ -63,18 +57,14 @@ body {
     font-weight: 600;
     letter-spacing: 0.4px;
     margin-bottom: 20px;
+    margin-left: 15%;
 }
 
 .Info ul{
     position: relative;
+    margin-left: 15%;
 }
 
-.Info ul li{
-    position: relative;
-    list-style: none;
-    margin: 10px 0;
-    cursor: pointer;
-}
 
 .Info ul li .icon{
     display: inline-block;
@@ -94,6 +84,7 @@ body {
     margin-bottom: 30px;
     margin: 15px 0;
     padding-left: 50px;
+    margin-left: 15%;
 }
 
 .logo{
@@ -113,11 +104,9 @@ body {
     letter-spacing: 0.4px;
     margin-bottom: 20px;
     align-items: center;
+    margin-left: 15%;
 }
-.p{
-    color: white;
-    overflow: hidden;;
-}
+
 .dot{
     display: inline-block;
     width: 10px;
@@ -207,22 +196,21 @@ body {
     color: darkcyan;
     padding-top: 10px;
 }
-.Education .table {
-    border-collapse: collapse;
+.table, th , td {
     border: 1px solid black;
-  } 
-  
-.table .th  {
-    border: 1px solid black;
-    table-layout: fixed ;
-    width: 180px ;
   }
-.table .td {
-    border: 1px solid black;
-    table-layout: fixed ;
-    width: 180px ;
-}
-.table{
-    table-layout: auto;
-    width: 180px; 
-}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td {
+    height: 25px;
+    vertical-align: bottom;
+    text-align: center;
+  }
+
+.Name{
+    color: darkcyan;
+  }
