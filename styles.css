@@ -138,7 +138,7 @@ body {
     padding: 40px;
 }
 
-.mainHeading{
+#mainHeading{
     position: relative;
     padding: 40px 20px;
     padding-right: 75px;
@@ -146,14 +146,14 @@ body {
 
 }
 
-.mainHeading .Name{
+#mainHeading .Name{
     font-size: 1.5em;
     color: red;
     font-weight: 400;
     padding-top: 0px;
 }
 
-.mainHeading .text{
+#mainHeading .text{
     color: cadetblue;
 }
 
